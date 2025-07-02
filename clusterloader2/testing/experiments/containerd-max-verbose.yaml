@@ -1,2 +1,2 @@
-# Note: GKE only supports a subset of containerd config. 'debug: true' is the primary way.
-debug: true 
+[debug]
+  level = "debug"
