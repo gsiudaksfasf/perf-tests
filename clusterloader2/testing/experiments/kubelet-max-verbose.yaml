@@ -1,6 +1,1 @@
-# This is the top-level object GKE expects for node system configuration
-# The exact API version might vary slightly with GKE versions, but this is typical.
-# Refer to GKE documentation for the precise structure if this doesn't work.
-kubeletConfig:
-  logging:
-    verbosity: 8 # Max possible verbosity for Kubelet logs
+verbosity: 4
